@@ -1,6 +1,7 @@
 body. p {
-    margin: 2;
-    padding: 2;
+    margin:1;
+    padding: 1;
+    /* height: 100%; */
 }
 
 nav {
@@ -25,8 +26,8 @@ nav img {
 }
 
 main {
-    width: 40%;
-    margin: 6.8em auto;
+    width: 50%;
+    margin: 3em auto;
     text-align: center;
 }
 
@@ -36,7 +37,6 @@ input {
         border: 1px solid rgb(199, 199, 199);
         border-radius: 36px;
         font-size: 10px;
-        padding: -11px;
         padding-bottom: 5px;
         height: 25px;
 }
@@ -49,33 +49,37 @@ input:hover {
 
 .btns_container {
     margin-top: 2em;
-    font-size: 5px;
-    height: 15px;
-    /* border-color: rgb(143, 143, 143); */
+    font-size: 15px;
+    height: 25px;
+    border-radius: 5px;
+    padding-bottom: 8em;
 }
 
-.btns_container buttom {
-    padding: 1em;
-    border: none;
-    
+.btns_container button {
+    padding: 0.5em;
+    font-size: 1em;
+    border: grey;
+    text-decoration-color: rgb(252, 252, 252);
 }
 .btns_container :hover {
-    flex-wrap: wrap;
-    outline:rgb(210, 210, 211);
-    border-radius: 10px;
-    box-shadow: 0 0 3px #b6b6b6;
+    border-radius: 5px;
+    outline: none;
+    border-color: rgb(206, 206, 206);
+    box-shadow: 0 0 3px #7a7a7a;
 }
 
 footer {
     background-color: rgb(240, 236, 236);
-}
+    /* flex-wrap: wrap; */
+    }
 
 .footer_top {
-    padding: 1em;
+    padding: 0.5em;
+    
 }
 
 .footer_bottom {
-    padding: 1em;
+    padding: 0.5em;
     display: flex;
     justify-content: space-between;
     border-top: 1px solid gray;
